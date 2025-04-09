@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Employment Program - Gauteng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            background: white;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #003366;
+        }
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .cta {
+            background: #007acc;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        label {
+            margin-bottom: 0.5rem;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"] {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #007acc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Youth Employment, Job Creation & Crime Prevention</h1>
+        <p>Empowering Gauteng's Youth One R5.00 at a Time</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Youth unemployment in Gauteng is a growing crisis, with 44.6% of young people unable to find work. Our program provides skills training, job creation, and entrepreneurship support to tackle this issue head-on and reduce crime.</p>
+    </section>
+
+    <section>
+        <h2>Objectives</h2>
+        <ul>
+            <li>Reduce youth unemployment through skills training and job creation.</li>
+            <li>Support small businesses and youth entrepreneurship.</li>
+            <li>Lower crime rates through economic empowerment.</li>
+            <li>Mobilize communities to be part of the solution.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Funding Model</h2>
+        <p>We propose a monthly R5.00 contribution from 1 million individuals to raise R5 million per month:</p>
+        <ul>
+            <li>60% – Small business and startup funding</li>
+            <li>20% – Skills development and training</li>
+            <li>10% – Administrative costs</li>
+            <li>10% – Community outreach and impact assessment</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Our Plan</h2>
+        <ul>
+            <li>Engage communities (schools, churches, hospitals, households)</li>
+            <li>Provide training and mentorship</li>
+            <li>Support young entrepreneurs with resources and funding</li>
+            <li>Facilitate job placements and partnerships</li>
+            <li>Monitor and evaluate our impact</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Impact & Benefits</h2>
+        <ul>
+            <li>Reduced crime through economic opportunity</li>
+            <li>Boosted local businesses and entrepreneurship</li>
+            <li>Empowered and skilled youth workforce</li>
+            <li>Stronger, safer communities</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <h2>Join Us</h2>
+        <p>Contribute R5.00 monthly and be a part of the change. Every bit helps empower Gauteng's youth.</p>
+    </section>
+
+    <form action="https://www.payfast.co.za/eng/process" method="post">
+        <h2>Make a Donation</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name_first" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required>
+
+        <label for="amount">Donation Amount (R)</label>
+        <input type="text" id="amount" name="amount" value="5.00" required>
+
+        <!-- PayFast merchant details -->
+        <input type="hidden" name="merchant_id" value="YOUR_MERCHANT_ID">
+        <input type="hidden" name="merchant_key" value="YOUR_MERCHANT_KEY">
+        <input type="hidden" name="return_url" value="https://yourdomain.com/thankyou">
+        <input type="hidden" name="cancel_url" value="https://yourdomain.com/cancel">
+        <input type="hidden" name="notify_url" value="https://yourdomain.com/notify">
+        <input type="hidden" name="item_name" value="Youth Employment Program Donation">
+
+        <input type="submit" value="Donate Now">
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Youth Employment Initiative | Powered by Community Support</p>
+    </footer>
+</body>
+</html>
